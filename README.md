@@ -2,7 +2,7 @@
 storyboard, xib nested xib. storyboard、xib 中嵌套 xib。
  
 
-步骤
+## 步骤
 
  1. 新建一个自定义`UIView`
  2. 重写`UIView`的`initWithCoder`方法
@@ -10,7 +10,8 @@ storyboard, xib nested xib. storyboard、xib 中嵌套 xib。
  4. 可以设置该`xib`文件的`File's owner`为自定义`UIView`的类名，方便拖线控件
  5. 在需要使用该`xib`的`storyboard`或者`xib`中拖入一个`UIView`，并设定它的Class为自定义的`UIView`类名
 
-核心代码如下：
+## 核心代码
+
 ```
     #import "MCComponent.h"
      
